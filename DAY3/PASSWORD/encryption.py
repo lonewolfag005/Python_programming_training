@@ -1,0 +1,5 @@
+pas = input("enter password")
+pas = pas.replace("A","a")
+pas = pas.replace("@","#")
+pas = pas.replace("1","2")
+print(pas)
